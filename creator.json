@@ -10,7 +10,12 @@
   "notice": "在 GitHub Anima-Public 仓库根目录编辑 creator.json，买家打开软件会自动同步这张名片和赞赏码。赞赏码图片放到 creator/ 文件夹，把 raw 地址填进 qr。",
   "watermark": false,
   "watermarkText": "",
-  "qr": [],
+  "qr": [
+    {
+      "label": "微信赞赏",
+      "image": "https://raw.githubusercontent.com/zhi847699-cpu/Anima-Public/main/creator/5e79d31d45f22689d06d9dbdd8275f5c.jpg"
+    }
+  ],
   "links": [
     {
       "label": "GitHub",
