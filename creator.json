@@ -1,0 +1,24 @@
+{
+  "v": 1,
+  "updated": "2026-08-27",
+  "name": "Anima",
+  "handle": "@zhi847699",
+  "bio": "Anima SkillPack Studio 作者。软件本体免费，扩展包按需开通。",
+  "homepage": "https://github.com/zhi847699-cpu/Anima-Public",
+  "donate": "",
+  "wechat": "",
+  "notice": "在 GitHub Anima-Public 仓库根目录编辑 creator.json，买家打开软件会自动同步这张名片和赞赏码。赞赏码图片放到 creator/ 文件夹，把 raw 地址填进 qr。",
+  "watermark": false,
+  "watermarkText": "",
+  "qr": [],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/zhi847699-cpu/Anima-Public"
+    },
+    {
+      "label": "下载最新买家版",
+      "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/latest"
+    }
+  ]
+}

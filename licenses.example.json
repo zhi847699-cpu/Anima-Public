@@ -1,0 +1,7 @@
+{
+  "killSwitch": false,
+  "revoked": [],
+  "allow": {
+    "EXAMPLEDEVICEID00000000": ["anima-content-adult", "anima-logic-extra"]
+  }
+}

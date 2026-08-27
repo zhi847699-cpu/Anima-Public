@@ -1,0 +1,9 @@
+{
+  "version": "4.14.0",
+  "title": "Anima SkillPack Studio",
+  "notes": "远程名单/名片/更新源迁到干净公开仓 Anima-Public。旧仓库历史不再公开。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.14/Anima_Buyer.zip",
+  "downloads": {
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.14/Anima_Buyer.zip"
+  }
+}
