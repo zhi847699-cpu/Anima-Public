@@ -1,9 +1,9 @@
 {
-  "version": "4.18.1",
+  "version": "4.18.2",
   "title": "Anima SkillPack Studio",
-  "notes": "服装芯片按字面展开：角色配色兔女郎/花嫁/比基尼/魅魔会写成对应套装+角色配色，并反向排除原版外套。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.1/Anima_Buyer.zip",
+  "notes": "所有服装芯片（除原版/纯白/白衬衫）按当前角色配色展开，死库水、旗袍、护士服等会写成角色色套装并排除原版外套。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.2/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.1/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.2/Anima_Buyer.zip"
   }
 }
