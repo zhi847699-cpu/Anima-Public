@@ -1,9 +1,9 @@
 {
-  "version": "4.21.0",
+  "version": "4.22.0",
   "title": "Anima SkillPack Studio",
-  "notes": "自定义词库上传自动分类（色情词隐藏到成人/露骨）。色裁独立页：角色照片采色、服装拆解、发送生图与随机最优组装。色裁需内容扩展包。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.21.0/Anima_Buyer.zip",
+  "notes": "色裁可选。发送只写入二次创作服装和配色。分类改为上衣/下衣/连体衣/色情服装/配饰/细节，中文勾选英文写入。本地组装可按当前勾选+色裁补全完整提示词。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.22.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.21.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.22.0/Anima_Buyer.zip"
   }
 }
