@@ -1,0 +1,50 @@
+name: publish-buyer
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: release tag
+        required: true
+        default: v4.18.2
+      notes:
+        description: release notes
+        required: false
+        default: 服装按当前角色配色展开
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and publish buyer zip
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/out
+          cat staging/buyer/part-*.b64 | tr -d '\n' | base64 -d > /tmp/out/Anima_Buyer.zip
+          python3 - <<'PY'
+          import zipfile, pathlib
+          p=pathlib.Path('/tmp/out/Anima_Buyer.zip')
+          assert zipfile.is_zipfile(p), 'not a zip'
+          z=zipfile.ZipFile(p)
+          names=z.namelist()
+          assert not any('issuer' in n.lower() or 'sign-pack' in n.lower() or 'masters/' in n.lower() for n in names)
+          print('ok', len(names), 'files', p.stat().st_size)
+          PY
+          TAG="${{ inputs.tag }}"
+          NOTES="${{ inputs.notes }}"
+          if gh release view "$TAG" --repo zhi847699-cpu/Anima-Public >/dev/null 2>&1; then
+            gh release upload "$TAG" /tmp/out/Anima_Buyer.zip --clobber --repo zhi847699-cpu/Anima-Public
+          else
+            gh release create "$TAG" /tmp/out/Anima_Buyer.zip --repo zhi847699-cpu/Anima-Public --title "Anima SkillPack Studio $TAG" --notes "$NOTES"
+          fi
+          rm -rf staging/buyer
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A staging || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: remove buyer staging after release"
+            git push
+          fi
