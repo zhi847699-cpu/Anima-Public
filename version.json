@@ -1,9 +1,9 @@
 {
-  "version": "4.20.0",
+  "version": "4.21.0",
   "title": "Anima SkillPack Studio",
-  "notes": "扮演镜头真正写进出图；场景/关系/性格/着装可自定义；签发台可上传色裁原包并加密发给买家按 id 追加。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.20.0/Anima_Buyer.zip",
+  "notes": "自定义词库上传自动分类（色情词隐藏到成人/露骨）。色裁独立页：角色照片采色、服装拆解、发送生图与随机最优组装。色裁需内容扩展包。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.21.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.20.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.21.0/Anima_Buyer.zip"
   }
 }
