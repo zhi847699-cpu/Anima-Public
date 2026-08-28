@@ -1,9 +1,9 @@
 {
-  "version": "4.23.0",
+  "version": "4.24.0",
   "title": "Anima SkillPack Studio",
-  "notes": "角色照片上传后自动采色，勾选的整套/细节服饰按该角色配色二次创作。工作流支持 API、画布、prompt 包裹，自动转换。色裁可选，发送只写服装配色。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.23.0/Anima_Buyer.zip",
+  "notes": "色裁可上传角色配色 API 和文字服饰，导入正向后按技能包勾选补全；色裁服装原文不会被本地组装改写。未使用色裁时仍按技能包组装。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.24.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.23.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.24.0/Anima_Buyer.zip"
   }
 }
