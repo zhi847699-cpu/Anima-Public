@@ -1,9 +1,9 @@
 {
-  "version": "4.22.0",
+  "version": "4.23.0",
   "title": "Anima SkillPack Studio",
-  "notes": "色裁可选。发送只写入二次创作服装和配色。分类改为上衣/下衣/连体衣/色情服装/配饰/细节，中文勾选英文写入。本地组装可按当前勾选+色裁补全完整提示词。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.22.0/Anima_Buyer.zip",
+  "notes": "角色照片上传后自动采色，勾选的整套/细节服饰按该角色配色二次创作。工作流支持 API、画布、prompt 包裹，自动转换。色裁可选，发送只写服装配色。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.23.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.22.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.23.0/Anima_Buyer.zip"
   }
 }
