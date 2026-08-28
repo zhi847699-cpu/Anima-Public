@@ -1,9 +1,9 @@
 {
-  "version": "4.16.0",
+  "version": "4.17.0",
   "title": "Anima SkillPack Studio",
-  "notes": "买家未开通内容包不再出现成人/露骨；开通后 NSFW 词库顶栏可见。作者版自动载入色情逻辑。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.16/Anima_Buyer.zip",
+  "notes": "签发一律加密（电脑/手机同一格式）；买家只认加密文件；无母版可只开权限；名单合并做并集；角色只拦官方未成年，不拦萝莉正太等看起来像。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.17/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.16/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.17/Anima_Buyer.zip"
   }
 }
