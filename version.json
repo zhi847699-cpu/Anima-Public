@@ -1,9 +1,9 @@
 {
-  "version": "4.17.0",
+  "version": "4.18.1",
   "title": "Anima SkillPack Studio",
-  "notes": "签发一律加密（电脑/手机同一格式）；买家只认加密文件；无母版可只开权限；名单合并做并集；角色只拦官方未成年，不拦萝莉正太等看起来像。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.17/Anima_Buyer.zip",
+  "notes": "服装芯片按字面展开：角色配色兔女郎/花嫁/比基尼/魅魔会写成对应套装+角色配色，并反向排除原版外套。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.1/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.17/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.18.1/Anima_Buyer.zip"
   }
 }
