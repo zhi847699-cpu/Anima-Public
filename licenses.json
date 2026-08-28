@@ -1,9 +1,14 @@
-{
-  "version": 1,
-  "updated": "2026-08-27",
+{{
   "killSwitch": false,
   "revoked": [],
   "allow": {
-    "58C2C376C4DE151DE5C08999": ["anima-content-adult", "anima-logic-extra"]
+    "58C2C376C4DE151DE5C08999": [
+      "anima-content-adult",
+      "anima-logic-extra"
+    ]
+  },
+  "packs": {
+    "anima-content-adult": "内容扩展包",
+    "anima-logic-extra": "逻辑扩展包"
   }
 }
