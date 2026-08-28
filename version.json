@@ -1,9 +1,9 @@
 {
-  "version": "4.27.0",
+  "version": "4.27.1",
   "title": "Anima SkillPack Studio",
-  "notes": "色裁写入后勾选角色，本地组装会按技能包把场景/镜头/姿势等补成完整提示词，服装原文不动。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.27.0/Anima_Buyer.zip",
+  "notes": "修复启动失败 custom is not defined；色裁配色与角色身份分离，组装补技能包。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.27.1/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.27.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.27.1/Anima_Buyer.zip"
   }
 }
