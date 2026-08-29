@@ -1,9 +1,9 @@
 {
-  "version": "4.30.0",
+  "version": "4.31.0",
   "title": "Anima SkillPack Studio",
-  "notes": "本地组装不再随机加未勾选动作；正向框会清掉混入的反向词。质量标签升级 year 2026。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.30.0/Anima_Buyer.zip",
+  "notes": "没勾动作时按当前级别随机补相关姿势；成人/露骨补相关成人动作。已勾选的不动。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.31.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.30.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.31.0/Anima_Buyer.zip"
   }
 }
