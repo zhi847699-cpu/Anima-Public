@@ -1,9 +1,12 @@
 {
-  "version": 1,
-  "killSwitch": false,
+  "killSwitch": "false",
   "revoked": [],
   "allow": {
     "58C2C376C4DE151DE5C08999": [
+      "anima-content-adult",
+      "anima-logic-extra"
+    ],
+    "7B60537693DBDF0EE7223749": [
       "anima-content-adult",
       "anima-logic-extra"
     ]
