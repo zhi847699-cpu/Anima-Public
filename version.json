@@ -1,9 +1,9 @@
 {
-  "version": "4.34.0",
+  "version": "4.37.0",
   "title": "Anima SkillPack Studio",
-  "notes": "人数勾选 2girls/1boy 不再被改成 1girl。色裁服装在 AI 补全和扮演拍照时保留。Comfy 拍照不再二次编译。打光锁定写入场景。露骨随机最优避开站姿。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.34.0/Anima_Buyer.zip",
+  "notes": "色裁选角色会锁定外貌；点色不再误关签名色；发送到生图框后补充提示词只补空位，不改已选服装。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.37.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.34.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.37.0/Anima_Buyer.zip"
   }
 }
