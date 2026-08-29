@@ -1,9 +1,9 @@
 {
-  "version": "4.32.0",
+  "version": "4.33.0",
   "title": "Anima SkillPack Studio",
-  "notes": "没勾动作时按当前级别随机补相关动作：安全站姿、轻微擦边、成人姿势、露骨配对成人动作。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.32.0/Anima_Buyer.zip",
+  "notes": "生图按提示词原文，手改不会被加回。色裁服装会清掉原版外套冲突。随机最优按级别补动作，不改已锁服装。成人不再自动加对话框。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.33.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.32.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.33.0/Anima_Buyer.zip"
   }
 }
