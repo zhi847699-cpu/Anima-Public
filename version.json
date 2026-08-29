@@ -1,7 +1,7 @@
 {
   "version": "4.31.0",
   "title": "Anima SkillPack Studio",
-  "notes": "没勾动作时按当前等级随机补相关动作：安全站姿、轻微擦边、露骨才加成人动作。",
+  "notes": "没勾动作时，按当前内容级别随机补相关动作：安全站姿、轻微擦边、成人姿势、露骨才加成人动作。",
   "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.31.0/Anima_Buyer.zip",
   "downloads": {
     "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.31.0/Anima_Buyer.zip"
