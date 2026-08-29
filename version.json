@@ -1,9 +1,9 @@
 {
-  "version": "4.37.0",
+  "version": "4.38.0",
   "title": "Anima SkillPack Studio",
-  "notes": "色裁选角色会锁定外貌；点色不再误关签名色；发送到生图框后补充提示词只补空位，不改已选服装。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.37.0/Anima_Buyer.zip",
+  "notes": "签发台可双击打开：母版已内嵌，签发后用页面下载按钮保存（不再被浏览器拦住）。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.38.0/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.37.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.38.0/Anima_Buyer.zip"
   }
 }
