@@ -5,11 +5,11 @@ on:
       tag:
         description: release tag
         required: true
-        default: v4.18.2
+        default: v4.37.0
       notes:
         description: release notes
         required: false
-        default: 服装按当前角色配色展开
+        default: 色裁选角色会锁定外貌；点色不再误关签名色；发送到生图框后补充提示词只补空位，不改已选服装。
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -35,6 +35,13 @@ jobs:
           PY
           TAG="${{ inputs.tag }}"
           NOTES="${{ inputs.notes }}"
+          if [ -f staging/meta.json ]; then
+            META_TAG=$(python3 -c "import json; print(json.load(open('staging/meta.json')).get('tag',''))")
+            META_NOTES=$(python3 -c "import json; print(json.load(open('staging/meta.json')).get('notes',''))")
+            TAG="${META_TAG:-$TAG}"
+            NOTES="${META_NOTES:-$NOTES}"
+          fi
+          TAG="${TAG:-v4.37.0}"
           if gh release view "$TAG" --repo zhi847699-cpu/Anima-Public >/dev/null 2>&1; then
             gh release upload "$TAG" /tmp/out/Anima_Buyer.zip --clobber --repo zhi847699-cpu/Anima-Public
           else
