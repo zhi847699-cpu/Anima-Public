@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-29",
+  "updated": "2026-09-04",
   "killSwitch": false,
   "revoked": [],
   "allow": {
@@ -9,6 +9,10 @@
       "anima-logic-extra"
     ],
     "7B60537693DBDF0EE7223749": [
+      "anima-content-adult",
+      "anima-logic-extra"
+    ],
+    "1C0A4B7F68FCCEE61182D48F": [
       "anima-content-adult",
       "anima-logic-extra"
     ]
