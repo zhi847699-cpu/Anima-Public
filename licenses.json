@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "updated": "2026-09-04",
+  "updated": "2026-09-06",
   "killSwitch": false,
   "revoked": [],
   "allow": {
     "58C2C376C4DE151DE5C08999": [
       "anima-content-adult",
-      "anima-logic-extra"
+      "anima-logic-extra",
+      "anima-logic-anima38b"
     ],
     "7B60537693DBDF0EE7223749": [
       "anima-content-adult",
