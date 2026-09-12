@@ -1,9 +1,9 @@
 {
-  "version": "4.39.4",
-  "title": "Anima 绘馆",
-  "notes": "更名为 Anima 绘馆。快速出图默认关掉 HQ 放大；本机直连 Comfy。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.4/Anima_Buyer.zip",
+  "version": "4.39.5",
+  "title": "Anima 工坊",
+  "notes": "更名为 Anima 工坊。请手动选择工作流 JSON；出图用你选的那份，不自动套 Krea2。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.5/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.4/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.5/Anima_Buyer.zip"
   }
 }
