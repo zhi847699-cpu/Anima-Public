@@ -1,9 +1,9 @@
 {
-  "version": "4.39.7",
+  "version": "4.39.8",
   "title": "Anima 工坊",
-  "notes": "完整重打包，功能与上一版相同。手动选工作流；按逻辑包组装提示词。旧授权仍有效。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.7/Anima_Buyer.zip",
+  "notes": "上传提示词：芯片显示中文，勾选写入英文。手动选工作流；按逻辑包组装。旧授权仍有效。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.8/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.7/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.8/Anima_Buyer.zip"
   }
 }
