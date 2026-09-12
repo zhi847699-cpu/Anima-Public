@@ -1,9 +1,9 @@
 {
-  "version": "4.38.0",
+  "version": "4.39.3",
   "title": "Anima SkillPack Studio",
-  "notes": "签发台可双击打开：母版已内嵌，签发后用页面下载按钮保存（不再被浏览器拦住）。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.38.0/Anima_Buyer.zip",
+  "notes": "v5 公钥签发兼容旧授权；批量导入分类/角色；角色库去重。公开包不含签发台和成人词库。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.3/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.38.0/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.3/Anima_Buyer.zip"
   }
 }
