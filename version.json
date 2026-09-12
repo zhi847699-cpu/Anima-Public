@@ -1,9 +1,9 @@
 {
-  "version": "4.39.5",
+  "version": "4.39.7",
   "title": "Anima 工坊",
-  "notes": "更名为 Anima 工坊。请手动选择工作流 JSON；出图用你选的那份，不自动套 Krea2。",
-  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.5/Anima_Buyer.zip",
+  "notes": "完整重打包，功能与上一版相同。手动选工作流；按逻辑包组装提示词。旧授权仍有效。",
+  "url": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.7/Anima_Buyer.zip",
   "downloads": {
-    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.5/Anima_Buyer.zip"
+    "buyer": "https://github.com/zhi847699-cpu/Anima-Public/releases/download/v4.39.7/Anima_Buyer.zip"
   }
 }
